@@ -50,7 +50,8 @@ nav ul li a {
 
 }
 .logo {
-  color: orange;
+  color: #A75B01;
+  -webkit-text-stroke: 0.5px orange;
   font-size: 30px;
   line-height: 80px;
   font-weight: bold;
@@ -201,7 +202,7 @@ nav ul li a {
  /* inside post */
 
 .pic {
-  width: 50px;
+  width: 40px;
   height: 60px;
   border-radius: 30px;
   background-color: lightblue;  
@@ -216,7 +217,7 @@ nav ul li a {
   align-items: center;
   border-radius: 30px;
   background-color: rgb(4, 13, 28);
-  height: 40px;
+  height: 45px;
   padding: 0 100px 0 25px ;
 
 }
