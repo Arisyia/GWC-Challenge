@@ -179,24 +179,63 @@ body {
     background-color: #133E7E;
   }
 
+  /* Divisors for Buttons */
+  .prompt-column {
+    background-color: #133E7E;
+    border: 1px solid white;
+    margin: 10px;
+  }
+
+  .p-left {
+    width: 5%;
+  }
+
+  .p-left-middle {
+    width: 85%;
+    border: 1px solid white;
+  }
+
+  .p-right-middle {
+    width: 5%;
+  }
+
+  .p-right {
+    width: 5%;
+  }
+
   .add-media {
     position: relative;
-    float: left;
     display: flex;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    margin: 17.5px;
     background-color: white;
   }
+
+  /* .vertical-bar {
+    position: relative;
+    display: flex;
+    width: 10px;
+    height: 30px;
+    margin: 10px;
+    background-color: #133E7E;
+  }
+
+  .horizontal-bar {
+    position: relative;
+    display: flex;
+    width: 30px;
+    height: 5px;
+    margin: 10px;
+    background-color: #133E7E;
+    z-index: 2;
+  } */
 
   .emoji {
     position: relative;
     display: flex;
-    float: right;
-    width: 45px;
-    height: 45px;
-    margin: 17.5px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: white;
   }
@@ -204,15 +243,13 @@ body {
   .send {
     position: relative;
     display: flex;
-    float: right;
-    width: 45px;
-    height: 45px;
-    margin: 17.5px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: white;
   }
 
-  /* Divisors */
+  /* Divisors for Messages and Icons */
   .column {
     float: left;
     border: 1px solid white;
@@ -301,6 +338,6 @@ body {
   }
 
   .self {
-    top: 48%;
+    top: 47%;
     background-color: lightblue;
   }
