@@ -184,16 +184,18 @@ nav ul li a {
   flex-direction: column;
   width: 500px;
   height: 100%;
-  border-radius: 3px;
 
 
 }
 .post {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  
+ 
 
   width: 100%;
-  height: 200px;
+  height: 175px;
   background-color: rgb(25, 35, 50);
   margin-bottom: 25px;
   padding-top: 25px;
@@ -201,13 +203,14 @@ nav ul li a {
 }
  /* inside post */
 
+
 .pic {
   width: 40px;
   height: 60px;
   border-radius: 30px;
   background-color: lightblue;  
   padding: 0 20px 0 0;
-  margin: 0 20px 0 0;
+  margin: 0 20px 0 50px;
 
 }
 
@@ -229,19 +232,125 @@ nav ul li a {
 
 }
 
+
+.post ul {
+  display: flex;
+  width: 100%;
+  padding: 50px
+}
+
+.post ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  
+}
+
 .scroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  flex-wrap: wrap;
   background-color: rgb(25, 35, 50);
   width: 100%;
-  height: 500px;
+  height: 400px;
+  color: white;
+  
 
+  
+}
+
+/* inside scroll */
+
+
+.row-1{
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0 5px 0;
+  
+}
+
+.row-2{
+  /* background-color: green; */
+  padding: 0 0 0 50px ;
+  margin: 10px 0 15px 0 ;
+}
+
+.row-2 a{
+  /* background-color: green; */
+  color: white;
+}
+
+.row-3{
+  /* background-color: coral; */
+  /* padding: 0 0 0 20px; */
+}
+
+.row-4 {
+  /* background-color: red; */
+  margin: 15px 50px 0 0;
+  padding: 0 0 0 50px
+}
+
+.scroll-pic {
+  width: 40px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: lightblue;  
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 50px;
+
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+
+.scroll ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.scroll ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
   
 }
 
 /* right box */
 .recent {
+  padding: 20px 0 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 250px;
   height: 400px;
   background-color: rgb(25, 35, 50);
+  border-radius: 3px;
+
+}
+
+/* boxes in right box */
+.box-1 {
+  color: white;
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+
+}
+
+.box-2, .box-3, .box-4, .box-5{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
   border-radius: 3px;
 
 }
