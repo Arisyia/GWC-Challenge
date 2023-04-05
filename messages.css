@@ -182,7 +182,6 @@ body {
   /* Divisors for Buttons */
   .prompt-column {
     background-color: #133E7E;
-    border: 1px solid white;
     margin: 10px;
   }
 
@@ -210,26 +209,24 @@ body {
     height: 50px;
     border-radius: 50%;
     background-color: white;
+    justify-content: center;
   }
 
-  /* .vertical-bar {
-    position: relative;
-    display: flex;
-    width: 10px;
+  .vertical-bar {
+    position: absolute;
+    width: 8px;
     height: 30px;
     margin: 10px;
     background-color: #133E7E;
   }
 
   .horizontal-bar {
-    position: relative;
-    display: flex;
+    position: absolute;
     width: 30px;
-    height: 5px;
-    margin: 10px;
+    height: 8px;
+    margin: 20px;
     background-color: #133E7E;
-    z-index: 2;
-  } */
+  }
 
   .emoji {
     position: relative;
@@ -252,7 +249,6 @@ body {
   /* Divisors for Messages and Icons */
   .column {
     float: left;
-    border: 1px solid white;
   }
   .left, .right {
     width: 7%;
@@ -266,6 +262,40 @@ body {
   .text {
     height: 40px;
     background-color: #133E7E;
+  }
+
+  .time-left {
+    position: relative;
+    width: 15%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    background-color:rgb(25, 35, 50);
+  }
+
+  .time-right {
+    position: relative;
+    float: right;
+    width: 17%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    background-color:rgb(25, 35, 50);
+    padding-left: 20px;
+  }
+
+  .time-right-special-1 {
+    position: relative;
+    float: right;
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    background-color:rgb(25, 35, 50);
+    padding-left: 20px;
   }
 
   .t1 {
@@ -302,21 +332,52 @@ body {
   .t6 {
     position: relative;
     float: right;
-    top: 160px;
-    width: 15%;
+    top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-left {
+    width: 55%;
+    height: 100%;
+    background-color:rgb(25, 35, 50);
+  }
+
+  .text-right {
+    width: 45%;
+    height: 100%;
   }
 
   .t7 {
     position: relative;
     float: right;
-    top: 220px;
+    top: 140px;
     width: 30%;
   }
 
   .t8 {
     position: relative;
+    display: flex;
     top: 283px;
     width: 30%;
+  }
+
+  .t8-1 {
+    position: relative;
+    width: 83%;
+  }
+
+  .t8-2 {
+    position: relative;
+    float: right;
+    width: 17%;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    background-color:rgb(25, 35, 50);
+    padding-left: 20px;
   }
 
   .icon {
